@@ -1,4 +1,5 @@
-    local Terrain = Workspace:FindFirstChildOfClass("Terrain")
+    local Terrain = workspace:FindFirstChildOfClass("Terrain")
+    local Lighting = game:GetService("Lighting")
     
     if Terrain then
         Terrain.WaterWaveSize = 0
