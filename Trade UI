@@ -77,34 +77,36 @@ G2L["9"] = Instance.new("Folder", G2L["2"]);
 G2L["9"]["Name"] = [[ButtonFolder]];
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.FruitButton
+-- StarterGui.ScreenGui.Main.ButtonFolder.Fruit
 G2L["a"] = Instance.new("TextButton", G2L["9"]);
 G2L["a"]["BorderSizePixel"] = 0;
 G2L["a"]["TextSize"] = 14;
 G2L["a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular,
+    Enum.FontStyle.Normal);
 G2L["a"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 G2L["a"]["Size"] = UDim2.new(0.27939, 0, 0.1, 0);
-G2L["a"]["Name"] = [[FruitButton]];
+G2L["a"]["Name"] = [[Fruit]];
 G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["a"]["Text"] = [[]];
 G2L["a"]["Position"] = UDim2.new(0.78626, 0, 0.09986, 0);
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.FruitButton.UICorner
+-- StarterGui.ScreenGui.Main.ButtonFolder.Fruit.UICorner
 G2L["b"] = Instance.new("UICorner", G2L["a"]);
 
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.FruitButton.TextLabel
+-- StarterGui.ScreenGui.Main.ButtonFolder.Fruit.TextLabel
 G2L["c"] = Instance.new("TextLabel", G2L["a"]);
 G2L["c"]["TextWrapped"] = true;
 G2L["c"]["BorderSizePixel"] = 0;
 G2L["c"]["TextScaled"] = true;
 G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c"]["TextSize"] = 100;
-G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold,
+    Enum.FontStyle.Normal);
 G2L["c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["c"]["BackgroundTransparency"] = 1;
 G2L["c"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
@@ -114,39 +116,41 @@ G2L["c"]["Text"] = [[Fruit]];
 G2L["c"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.FruitButton.TextLabel.UITextSizeConstraint
+-- StarterGui.ScreenGui.Main.ButtonFolder.Fruit.TextLabel.UITextSizeConstraint
 G2L["d"] = Instance.new("UITextSizeConstraint", G2L["c"]);
 G2L["d"]["MaxTextSize"] = 25;
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.PetButton
+-- StarterGui.ScreenGui.Main.ButtonFolder.Pet
 G2L["e"] = Instance.new("TextButton", G2L["9"]);
 G2L["e"]["BorderSizePixel"] = 0;
 G2L["e"]["TextSize"] = 14;
 G2L["e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular,
+    Enum.FontStyle.Normal);
 G2L["e"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 G2L["e"]["Size"] = UDim2.new(0.27939, 0, 0.1, 0);
-G2L["e"]["Name"] = [[PetButton]];
+G2L["e"]["Name"] = [[Pet]];
 G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["e"]["Text"] = [[]];
 G2L["e"]["Position"] = UDim2.new(0.21152, 0, 0.09986, 0);
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.PetButton.UICorner
+-- StarterGui.ScreenGui.Main.ButtonFolder.Pet.UICorner
 G2L["f"] = Instance.new("UICorner", G2L["e"]);
 
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.PetButton.TextLabel
+-- StarterGui.ScreenGui.Main.ButtonFolder.Pet.TextLabel
 G2L["10"] = Instance.new("TextLabel", G2L["e"]);
 G2L["10"]["TextWrapped"] = true;
 G2L["10"]["BorderSizePixel"] = 0;
 G2L["10"]["TextScaled"] = true;
 G2L["10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["10"]["TextSize"] = 100;
-G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold,
+    Enum.FontStyle.Normal);
 G2L["10"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["10"]["BackgroundTransparency"] = 1;
 G2L["10"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
@@ -156,39 +160,41 @@ G2L["10"]["Text"] = [[Pets]];
 G2L["10"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.PetButton.TextLabel.UITextSizeConstraint
+-- StarterGui.ScreenGui.Main.ButtonFolder.Pet.TextLabel.UITextSizeConstraint
 G2L["11"] = Instance.new("UITextSizeConstraint", G2L["10"]);
 G2L["11"]["MaxTextSize"] = 25;
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.EggButton
+-- StarterGui.ScreenGui.Main.ButtonFolder.Egg
 G2L["12"] = Instance.new("TextButton", G2L["9"]);
 G2L["12"]["BorderSizePixel"] = 0;
 G2L["12"]["TextSize"] = 14;
 G2L["12"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["12"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["12"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular,
+    Enum.FontStyle.Normal);
 G2L["12"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 G2L["12"]["Size"] = UDim2.new(0.27939, 0, 0.1, 0);
-G2L["12"]["Name"] = [[EggButton]];
+G2L["12"]["Name"] = [[Egg]];
 G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["12"]["Text"] = [[]];
 G2L["12"]["Position"] = UDim2.new(0.49905, 0, 0.09986, 0);
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.EggButton.UICorner
+-- StarterGui.ScreenGui.Main.ButtonFolder.Egg.UICorner
 G2L["13"] = Instance.new("UICorner", G2L["12"]);
 
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.EggButton.TextLabel
+-- StarterGui.ScreenGui.Main.ButtonFolder.Egg.TextLabel
 G2L["14"] = Instance.new("TextLabel", G2L["12"]);
 G2L["14"]["TextWrapped"] = true;
 G2L["14"]["BorderSizePixel"] = 0;
 G2L["14"]["TextScaled"] = true;
 G2L["14"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["14"]["TextSize"] = 100;
-G2L["14"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["14"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold,
+    Enum.FontStyle.Normal);
 G2L["14"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["14"]["BackgroundTransparency"] = 1;
 G2L["14"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
@@ -198,7 +204,7 @@ G2L["14"]["Text"] = [[Eggs]];
 G2L["14"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 
--- StarterGui.ScreenGui.Main.ButtonFolder.EggButton.TextLabel.UITextSizeConstraint
+-- StarterGui.ScreenGui.Main.ButtonFolder.Egg.TextLabel.UITextSizeConstraint
 G2L["15"] = Instance.new("UITextSizeConstraint", G2L["14"]);
 G2L["15"]["MaxTextSize"] = 25;
 
@@ -230,7 +236,8 @@ G2L["19"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["19"]["TextScaled"] = true;
 G2L["19"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["19"]["TextSize"] = 100;
-G2L["19"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["19"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold,
+    Enum.FontStyle.Normal);
 G2L["19"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["19"]["BackgroundTransparency"] = 1;
 G2L["19"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
@@ -255,7 +262,8 @@ G2L["1b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["1b"]["TextScaled"] = true;
 G2L["1b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1b"]["TextSize"] = 100;
-G2L["1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold,
+    Enum.FontStyle.Normal);
 G2L["1b"]["TextColor3"] = Color3.fromRGB(172, 172, 172);
 G2L["1b"]["BackgroundTransparency"] = 1;
 G2L["1b"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
@@ -281,7 +289,8 @@ G2L["1d"]["TextWrapped"] = true;
 G2L["1d"]["TextSize"] = 14;
 G2L["1d"]["TextScaled"] = true;
 G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular,
+    Enum.FontStyle.Normal);
 G2L["1d"]["RichText"] = true;
 G2L["1d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 G2L["1d"]["PlaceholderText"] = [[Enter]];
@@ -309,7 +318,8 @@ G2L["20"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["20"]["TextScaled"] = true;
 G2L["20"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["20"]["TextSize"] = 100;
-G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold,
+    Enum.FontStyle.Normal);
 G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["20"]["BackgroundTransparency"] = 1;
 G2L["20"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
@@ -324,7 +334,6 @@ G2L["20"]["Position"] = UDim2.new(0.87935, 0, 0.47507, 0);
 -- StarterGui.ScreenGui.Main.FrameFolder.Frame.NameLabel.UITextSizeConstraint
 G2L["21"] = Instance.new("UITextSizeConstraint", G2L["20"]);
 G2L["21"]["MaxTextSize"] = 20;
-
 
 
 
