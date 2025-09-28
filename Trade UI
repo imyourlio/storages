@@ -5,7 +5,7 @@ local MercuryTradeUI = CoreGui:FindFirstChild("Mercury TradeUI", 5)
 if MercuryTradeUI then MercuryTradeUI:Destory() end
 
 -- StarterGui.ScreenGui
-G2L["1"] = Instance.new("ScreenGui", game.CoreGui);
+G2L["1"] = Instance.new("ScreenGui", CoreGui);
 G2L["1"]["Enabled"] = false;
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["1"]["Name"] = [[Mercury TradeUI]]:
