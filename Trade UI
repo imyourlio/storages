@@ -9,6 +9,7 @@ G2L["1"] = Instance.new("ScreenGui", CoreGui);
 G2L["1"]["Enabled"] = false;
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["1"]["Name"] = [[Mercury TradeUI]];
+G2L["1"]["DisplayOrder"] = -1
 
 
 -- StarterGui.ScreenGui.Main
