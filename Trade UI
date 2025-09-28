@@ -310,7 +310,7 @@ G2L["1f"] = Instance.new("UITextSizeConstraint", G2L["1d"]);
 G2L["1f"]["MaxTextSize"] = 14;
 
 
--- StarterGui.ScreenGui.Main.FrameFolder.Frame.NameLabel
+-- StarterGui.ScreenGui.Main.FrameFolder.Frame.Keep
 G2L["20"] = Instance.new("TextLabel", G2L["17"]);
 G2L["20"]["TextWrapped"] = true;
 G2L["20"]["BorderSizePixel"] = 0;
@@ -327,11 +327,11 @@ G2L["20"]["Size"] = UDim2.new(0.2, 0, 0.48007, 0);
 G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["20"]["Text"] = [[Keep:]];
 G2L["20"]["AutomaticSize"] = Enum.AutomaticSize.X;
-G2L["20"]["Name"] = [[NameLabel]];
+G2L["20"]["Name"] = [[Keep]];
 G2L["20"]["Position"] = UDim2.new(0.87935, 0, 0.47507, 0);
 
 
--- StarterGui.ScreenGui.Main.FrameFolder.Frame.NameLabel.UITextSizeConstraint
+-- StarterGui.ScreenGui.Main.FrameFolder.Frame.Keep.UITextSizeConstraint
 G2L["21"] = Instance.new("UITextSizeConstraint", G2L["20"]);
 G2L["21"]["MaxTextSize"] = 20;
 
