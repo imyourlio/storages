@@ -2,7 +2,7 @@ local G2L = {};
 
 local CoreGui = game.CoreGui
 local MercuryTradeUI = CoreGui:FindFirstChild("Mercury TradeUI", 5)
-if MercuryTradeUI then MercuryTradeUI:Destory() end
+if MercuryTradeUI then MercuryTradeUI:Destroy() end
 
 -- StarterGui.ScreenGui
 G2L["1"] = Instance.new("ScreenGui", CoreGui);
@@ -327,4 +327,5 @@ G2L["21"]["MaxTextSize"] = 20;
 
 
 
-return G2L["1"];
+
+return G2L;
