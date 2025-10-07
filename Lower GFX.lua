@@ -1,5 +1,3 @@
-
-
 local Terrain = workspace:FindFirstChildOfClass("Terrain")
 local Lighting = game:GetService("Lighting")
 
@@ -22,10 +20,10 @@ local function Simplify(obj)
 
 	elseif obj:IsA("Decal") then
 		obj.Transparency = 1
-
-	elseif obj:IsA("ParticleEmitter") or obj:IsA("Trail") then
-		obj.Lifetime = NumberRange.new(0)
-
+    elseif obj:IsA("ParticleEmitter") then
+        obj.Lifetime = NumberRange.new(0)
+    elseif obj:IsA("Trail") then
+        obj.Lifetime = 0
 	elseif obj:IsA("Explosion") then
 		obj.BlastPressure = 1
 		obj.BlastRadius = 1
