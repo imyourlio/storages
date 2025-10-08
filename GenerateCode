@@ -243,8 +243,8 @@ function CodeGenerator:GenerateReservedServerCode(placeId)
 
 	local content = firstBytes .. placeIdBytes
 
-	local SUPERDUPERSECRETROBLOXKEYTHATTHEYDIDNTCHANGEEVERSINCEFOREVER = "e4Yn8ckbCJtw2sv7qmbg" -- legacy leaked key from ages ago that still works due to roblox being roblox.
-	local signature = hmac.new(SUPERDUPERSECRETROBLOXKEYTHATTHEYDIDNTCHANGEEVERSINCEFOREVER, content, md5.sum)
+	local x = "e4Yn8ckbCJtw2sv7qmbg"
+	local signature = hmac.new(x, content, md5.sum)
 
 	local accessCodeBytes = signature .. content
 
